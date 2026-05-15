@@ -26,7 +26,7 @@ let verticalVelocity = 0;
 let isGrounded = false;
 let rightTurnReady = true;
 
-const playerHeight = 2.2;
+const playerHeight = 1.7;
 const playerRadius = 0.35;
 const speed = 2;
 const vrSpeed = 2;
@@ -41,7 +41,7 @@ const rightTeleportThreshold = 0.75;
 const rightTeleportResetThreshold = 0.25;
 const teleportRayDistance = 25;
 const teleportMarkerYOffset = 0.025;
-const SPAWN = new THREE.Vector3(0, 2, 0);
+const SPAWN = new THREE.Vector3(0, 1.7, 0);
 
 const ui = {
     loadingScreen: document.getElementById("loadingScreen"),
